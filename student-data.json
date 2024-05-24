@@ -1,0 +1,453 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Kumar",
+    "age": 17,
+    "gender": "Male",
+    "email": "aarav.kumar@example.com",
+    "phone": "+91-9000000000",
+    "address": {
+      "street": "1234 Main Street",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "zip": "110001"
+    },
+    "class": 12,
+    "section": "A",
+    "rollNumber": 5,
+    "subjects": ["Physics", "Chemistry", "Mathematics"],
+    "attendance": 92,
+    "fees": {
+      "tuition": 15000,
+      "lab": 2000,
+      "library": 500
+    },
+    "performance": {
+      "maths": 85,
+      "physics": 90,
+      "chemistry": 87
+    },
+    "remarks": "Excellent in academics."
+  },
+  {
+    "id": 2,
+    "name": "Riya Patel",
+    "age": 16,
+    "gender": "Female",
+    "email": "riya.patel@example.com",
+    "phone": "+91-9000000001",
+    "address": {
+      "street": "2345 Main Road",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "zip": "400001"
+    },
+    "class": 10,
+    "section": "B",
+    "rollNumber": 12,
+    "subjects": ["History", "Geography", "English"],
+    "attendance": 95,
+    "fees": {
+      "tuition": 12000,
+      "lab": 1500,
+      "library": 300
+    },
+    "performance": {
+      "history": 88,
+      "geography": 92,
+      "english": 90
+    },
+    "remarks": "Shows great interest in social sciences."
+  },
+  {
+    "id": 3,
+    "name": "Kiran Sharma",
+    "age": 15,
+    "gender": "Female",
+    "email": "kiran.sharma@example.com",
+    "phone": "+91-9000000002",
+    "address": {
+      "street": "5678 Gandhi Nagar",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "zip": "302001"
+    },
+    "class": 9,
+    "section": "C",
+    "rollNumber": 20,
+    "subjects": ["Biology", "History", "Sanskrit"],
+    "attendance": 88,
+    "fees": {
+      "tuition": 10000,
+      "lab": 1200,
+      "library": 250
+    },
+    "performance": {
+      "biology": 82,
+      "history": 85,
+      "sanskrit": 90
+    },
+    "remarks": "Enthusiastic about science subjects."
+  },
+  {
+    "id": 4,
+    "name": "Vikram Singh",
+    "age": 18,
+    "gender": "Male",
+    "email": "vikram.singh@example.com",
+    "phone": "+91-9000000003",
+    "address": {
+      "street": "7890 Rajaji Nagar",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "zip": "560001"
+    },
+    "class": 11,
+    "section": "A",
+    "rollNumber": 8,
+    "subjects": ["Computer Science", "Mathematics", "English"],
+    "attendance": 94,
+    "fees": {
+      "tuition": 14000,
+      "lab": 1800,
+      "library": 400
+    },
+    "performance": {
+      "computerScience": 88,
+      "mathematics": 92,
+      "english": 85
+    },
+    "remarks": "Strong analytical skills."
+  },
+  {
+    "id": 5,
+    "name": "Akshita Gupta",
+    "age": 18,
+    "gender": "Female",
+    "email": "akshita.gupta@example.com",
+    "phone": "+91-9876543219",
+    "address": {
+      "street": "456, Park Avenue",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "zip": "400001"
+    },
+    "class": 11,
+    "section": "B",
+    "rollNumber": 12,
+    "subjects": ["Biology", "English", "History"],
+    "attendance": 88,
+    "fees": {
+      "tuition": 18000,
+      "lab": 2500,
+      "library": 700
+    },
+    "performance": {
+      "biology": 92,
+      "english": 85,
+      "history": 88
+    },
+    "remarks": "Active participant in extracurricular activities."
+  },
+  {
+    "id": 6,
+    "name": "Aditya Sharma",
+    "age": 16,
+    "gender": "Male",
+    "email": "aditya.sharma@example.com",
+    "phone": "+91-9876543220",
+    "address": {
+      "street": "789, MG Road",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zip": "560001"
+    },
+    "class": 10,
+    "section": "C",
+    "rollNumber": 21,
+    "subjects": ["Science", "Mathematics", "Social Studies"],
+    "attendance": 95,
+    "fees": {
+      "tuition": 12000,
+      "lab": 1500,
+      "library": 400
+    },
+    "performance": {
+      "science": 88,
+      "mathematics": 92,
+      "social_studies": 90
+    },
+    "remarks": "Consistently performs well in all subjects."
+  },
+  {
+    "id": 7,
+    "name": "Sneha Patel",
+    "age": 17,
+    "gender": "Female",
+    "email": "sneha.patel@example.com",
+    "phone": "+91-9876543221",
+    "address": {
+      "street": "567, Gandhi Nagar",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "zip": "380001"
+    },
+    "class": 11,
+    "section": "A",
+    "rollNumber": 15,
+    "subjects": ["Computer Science", "Accountancy", "Economics"],
+    "attendance": 90,
+    "fees": {
+      "tuition": 16000,
+      "lab": 1800,
+      "library": 600
+    },
+    "performance": {
+      "computer_science": 85,
+      "accountancy": 92,
+      "economics": 88
+    },
+    "remarks": "Shows great potential in computer science."
+  },
+  {
+    "id": 8,
+    "name": "Karan Sharma",
+    "age": 16,
+    "gender": "Male",
+    "email": "karan.sharma@example.com",
+    "phone": "+91-9876543222",
+    "address": {
+      "street": "789, MG Road",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zip": "560001"
+    },
+    "class": 10,
+    "section": "B",
+    "rollNumber": 18,
+    "subjects": ["Physics", "Chemistry", "Biology"],
+    "attendance": 93,
+    "fees": {
+      "tuition": 13000,
+      "lab": 1600,
+      "library": 450
+    },
+    "performance": {
+      "physics": 87,
+      "chemistry": 90,
+      "biology": 85
+    },
+    "remarks": "Shows improvement in biology."
+  },
+  {
+    "id": 9,
+    "name": "Riya Singh",
+    "age": 17,
+    "gender": "Female",
+    "email": "riya.singh@example.com",
+    "phone": "+91-9876543223",
+    "address": {
+      "street": "456, Park Street",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "zip": "700001"
+    },
+    "class": 12,
+    "section": "A",
+    "rollNumber": 10,
+    "subjects": ["Mathematics", "Computer Science", "English"],
+    "attendance": 95,
+    "fees": {
+      "tuition": 17000,
+      "lab": 1900,
+      "library": 550
+    },
+    "performance": {
+      "mathematics": 92,
+      "computer_science": 88,
+      "english": 90
+    },
+    "remarks": "Consistently among the top performers in class."
+  },
+  {
+    "id": 10,
+    "name": "Amit Kumar",
+    "age": 17,
+    "gender": "Male",
+    "email": "amit.kumar@example.com",
+    "phone": "+91-9876543225",
+    "address": {
+      "street": "789, Gandhi Nagar",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "zip": "380001"
+    },
+    "class": 11,
+    "section": "A",
+    "rollNumber": 23,
+    "subjects": ["Computer Science", "Mathematics", "Biology"],
+    "attendance": 90,
+    "fees": {
+      "tuition": 15000,
+      "lab": 1700,
+      "library": 550
+    },
+    "performance": {
+      "computer_science": 85,
+      "mathematics": 88,
+      "biology": 92
+    },
+    "remarks": "Shows great potential in biology."
+  },
+  {
+    "id": 11,
+    "name": "Sneha Desai",
+    "age": 16,
+    "gender": "Female",
+    "email": "sneha.desai@example.com",
+    "phone": "+91-9876543226",
+    "address": {
+      "street": "456, Park Avenue",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "zip": "400001"
+    },
+    "class": 10,
+    "section": "A",
+    "rollNumber": 17,
+    "subjects": ["Physics", "Chemistry", "Mathematics"],
+    "attendance": 93,
+    "fees": {
+      "tuition": 14000,
+      "lab": 1600,
+      "library": 500
+    },
+    "performance": {
+      "physics": 88,
+      "chemistry": 90,
+      "mathematics": 85
+    },
+    "remarks": "Consistently performs well in all subjects."
+  },
+
+  {
+    "id": 12,
+    "name": "Varun Sharma",
+    "age": 17,
+    "gender": "Male",
+    "email": "varun.sharma@example.com",
+    "phone": "+91-9876543227",
+    "address": {
+      "street": "789, Main Street",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "zip": "411001"
+    },
+    "class": 11,
+    "section": "B",
+    "rollNumber": 25,
+    "subjects": ["Computer Science", "Physics", "Mathematics"],
+    "attendance": 91,
+    "fees": {
+      "tuition": 16000,
+      "lab": 1800,
+      "library": 600
+    },
+    "performance": {
+      "computer_science": 85,
+      "physics": 88,
+      "mathematics": 90
+    },
+    "remarks": "Consistent in academics and active in extracurriculars."
+  },
+  {
+    "id": 13,
+    "name": "Zoya Khan",
+    "age": 16,
+    "gender": "Female",
+    "email": "zoya.khan@example.com",
+    "phone": "+91-9876543228",
+    "address": {
+      "street": "123, Gandhi Road",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "zip": "700001"
+    },
+    "class": 10,
+    "section": "C",
+    "rollNumber": 9,
+    "subjects": ["Biology", "Chemistry", "English"],
+    "attendance": 94,
+    "fees": {
+      "tuition": 15000,
+      "lab": 1700,
+      "library": 550
+    },
+    "performance": {
+      "biology": 88,
+      "chemistry": 90,
+      "english": 85
+    },
+    "remarks": "Shows exceptional interest and aptitude in biology."
+  },
+  {
+    "id": 14,
+    "name": "Eshaan Kapoor",
+    "age": 17,
+    "gender": "Male",
+    "email": "eshaan.kapoor@example.com",
+    "phone": "+91-9876543229",
+    "address": {
+      "street": "456, Lakeview Road",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "zip": "600001"
+    },
+    "class": 11,
+    "section": "A",
+    "rollNumber": 11,
+    "subjects": ["Physics", "Computer Science", "Mathematics"],
+    "attendance": 95,
+    "fees": {
+      "tuition": 17000,
+      "lab": 1800,
+      "library": 600
+    },
+    "performance": {
+      "physics": 90,
+      "computer_science": 88,
+      "mathematics": 92
+    },
+    "remarks": "Consistently excels in all subjects."
+  },
+  {
+    "id": 15,
+    "name": "Farhan Ali",
+    "age": 16,
+    "gender": "Male",
+    "email": "farhan.ali@example.com",
+    "phone": "+91-9876543230",
+    "address": {
+      "street": "789, Hilltop Avenue",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zip": "560001"
+    },
+    "class": 10,
+    "section": "B",
+    "rollNumber": 19,
+    "subjects": ["Mathematics", "Science", "Social Studies"],
+    "attendance": 93,
+    "fees": {
+      "tuition": 15000,
+      "lab": 1600,
+      "library": 500
+    },
+    "performance": {
+      "mathematics": 88,
+      "science": 90,
+      "social_studies": 85
+    },
+    "remarks": "Shows great improvement in mathematics."
+  }
+]
