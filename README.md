@@ -25,12 +25,12 @@ Example Requests
 Get all students:
 
 ```http
-GET //https://get-json-data.onrender.com/students
+GET https://get-json-data.onrender.com/students
 ```
 ### Get student by ID:
 
 ```http
-GET //https://get-json-data.onrender.com/students?id=1
+GET https://get-json-data.onrender.com/students?id=1
 ```
 - Example Response
 ```json
