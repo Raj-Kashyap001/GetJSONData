@@ -22,26 +22,32 @@ const server = http.createServer((req, res) => {
   const params = new URLSearchParams(url.search);
   const endPoint = url.pathname.toLowerCase();
 
-  if (endPoint === "/students") {
+  res.setHeader("Content-Type", "application/json");
+
+  if (endPoint === "/api") {
+    const jointData = { students: studentData, products: productData };
+    res.writeHead(200);
+    res.end(JSON.stringify(jointData));
+  } else if (endPoint === "/api/students") {
     const filteredStudents = filterData(studentData, params);
 
     if (filteredStudents.length > 0) {
-      res.writeHead(200, { "Content-Type": "application/json" });
+      res.writeHead(200);
       res.end(JSON.stringify(filteredStudents));
     } else {
-      res.writeHead(404, { "Content-Type": "application/json" });
+      res.writeHead(404);
       res.end(
         JSON.stringify({ error: "No students found matching the criteria" })
       );
     }
-  } else if (endPoint === "/products") {
+  } else if (endPoint === "/api/products") {
     const filteredProducts = filterData(productData, params);
 
     if (filteredProducts.length > 0) {
-      res.writeHead(200, { "Content-Type": "application/json" });
+      res.writeHead(200);
       res.end(JSON.stringify(filteredProducts));
     } else {
-      res.writeHead(404, { "Content-Type": "application/json" });
+      res.writeHead(404);
       res.end(
         JSON.stringify({ error: "No products found matching the criteria" })
       );
